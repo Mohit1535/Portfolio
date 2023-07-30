@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+
+</head>
+<style>
+    body {
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .header {
+        font-weight: 1900;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 3em;
+        font-weight: bold;
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvTeDcndYsV9UK_X4w-1vDcqPU815KF39Ca77snO_kUO7V7jLYyeXwMzpQM-zqokCzwys&usqp=CAU');
+        background-size: cover;
+        background-position: center;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .top{
+      width:100%;
+      height:400px;
+    background-image:url(https://images.unsplash.com/photo-1616004667892-d348f7349d39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGNvZGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    margin-top:-20px;
+    background-position: center;
+      background-repeat: no-repeat;
+    }
+    .nav1{
+  margin-left: 1000px;
+  margin-top: -70px;
+font-family: Arial, Helvetica, sans-serif;
+    }
+    .nav1 li:hover{
+        cursor: pointer;
+        transition:0.1s;
+        text-decoration-line: underline;
+        background-color:chocolate;
+        
+    }
+    .nav1 li{
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        display:inline-block;
+        margin-left: 20px;
+        top:4px;
+        
+    }
+    .nav1 li a{
+    text-decoration: none;
+    color: white;
+
+    }
+    .header-2{
+        color:white;
+        font-size:1.6em;
+        margin-top:170px;
+        margin-left: 34px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight:bold;
+        }
+        .span{
+            color:red;
+            font-size:1.2em;
+        }
+        .left{
+            margin-top: 40px;
+            margin-left:30px;
+            border:4px solid #121212;
+            width:160px;
+            border-radius:16px;
+            width:220px;
+
+        }
+        .left:hover{
+            transition-delay:5s;
+            display:inline-block;
+            cursor: pointer;
+            box-shadow: white;
+            margin-left:160px;
+            margin-bottom: 40px;
+            transition:2s;
+        }
+        .header-3{
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:1.8em;
+            margin-top:100px;
+               margin-left:560px;
+        }
+        #paragraph{
+            padding: 4px;
+            border-radius:16px;
+            border:4px solid #221b1b;
+            color:white;
+            margin-left:400px;
+            width:600px;
+        margin-top:-400px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 2px 2px;
+        
+        
+            font-size:1.2em;
+        }
+        #paragraph:hover{
+            cursor:pointer;
+            transition:2s;
+            box-shadow: white;
+            
+        }
+        .header-3{
+            margin-top:200px;
+            color:white;
+            font-size: 1.7em;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        .card-title{
+            font-family: Arial, Helvetica, sans-serif;
+           margin-top:-5px;
+            font-weight:200;
+            font-size:2rem;
+            color:white; 
+        }
+        .card-text{
+            margin-top:-20px;
+            color:white;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        }
+        .Netflix{
+        
+        padding: 4px;
+            height:550px;
+        }
+        .Netflix:hover{
+            margin-top:-40px;
+            cursor:pointer;
+            margin-left:30px;
+            transition:2s;
+            border:4px solid pink;
+            border-radius:14px;
+        }
+        #button-1{
+        
+            color:black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #button-1:hover{
+            background-color:yellow;
+        }
+        .cards{
+            display:flex;
+        }
+        .Spotify{
+            margin-left:100px;
+        
+        padding: 4px;
+            height:550px;
+        }
+        .Spotify:hover{
+            margin-top:-40px;
+            cursor:pointer;
+            margin-left:30px;
+            transition:2s;
+            border:4px solid pink;
+            border-radius:14px;
+            
+        }
+        
+        .Gym-website{
+            margin-left:100px;
+        
+        padding: 4px;
+            height:550px;
+        }
+        .Gym-website:hover{
+            margin-top:-40px;
+            cursor:pointer;
+            margin-left:30px;
+            transition:2s;
+            border:4px solid pink;
+            border-radius:14px;
+            }
+ 
+            .Library{
+            margin-left:100px;
+        
+        padding: 4px;
+            height:550px;
+        }
+        .Library:hover{
+            margin-top:-40px;
+            cursor:pointer;
+            margin-left:30px;
+            transition:2s;
+            border:4px solid pink;
+            border-radius:14px;
+            }
+       
+            .h6{margin-left:600px;
+                margin-top:60px;
+            color:white;
+            font-size: 1.9em;
+        font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .web-development{
+        
+        padding: 4px;
+            height:300px;
+            margin-top:180px;
+        }
+        .web-development:hover{
+            margin-top:60px;
+            cursor:pointer;
+            margin-left:30px;
+            transition:2s;
+            border:4px solid pink;
+            border-radius:14px;
+        }
+       .java{
+        margin-left:100px;
+        margin-top:180px;
+        padding: 4px;
+            height:300px;
+
+       } 
+       .java:hover{
+        margin-top:60px;
+            cursor:pointer;
+            margin-left:30px;
+            transition:2s;
+            border:4px solid pink;
+            border-radius:14px;
+       } 
+       .services{
+        display:flex;
+       }   
+       .javascript{
+        margin-left:100px;
+        margin-top:180px;
+        padding: 4px;
+            height:300px;
+       }
+       .javascript:hover{
+        margin-top:60px;
+            cursor:
+            pointer;
+            margin-left:30px;
+            transition:2s;
+            border:4px solid pink;
+            border-radius:14px;
+       }
+       
+
+       .h9{
+        color:white;
+        font-size:1.8em;
+        margin-left:650px;
+        margin-top:100px;
+        font-family:Arial, Helvetica, sans-serif;
+       }
+       .h10{
+        position: relative;
+        color:white;
+        font-size:1.0em;
+        margin-top:100px;
+        margin-left:-600px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+       .h11{
+        position: relative;
+        color:white;
+        font-size:1.0em;
+        margin-top:40px;
+    
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+       .paragraph2{
+        color:white;
+        font-size:0.6em;
+       }
+       .h12{
+        margin-left:900px;
+        margin-top:-184px;
+        justify-content: space-between;
+       }
+       #email{
+        margin-top:10px;
+        margin-left:60px;
+        width:300px;
+        height:30px;
+
+       }
+       
+       .btn{
+        color:black;
+        font-size:0.6em;
+        background-color:red;
+        display:inline-block;
+        cursor:pointer;
+        margin-left:530px;
+        margin-top:-80px
+       }
+</style>
+
+<body>
+    
+ <div class="top">
+    <h1 class="header">PORTFOLIO
+    </h1>
+    <nav class="nav1">
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contact</a></li>
+    </ul>
+    </nav>
+<h2 class="header-2">
+    Hi, I'm  <span class="span">Mohit Singh</span>
+    <br>
+I'm a Web Designer
+</h2>
+
+ </div>
+<div class="mid">
+
+    <h3 class="header-3">About Me</h3>
+    <div class="left">
+        <img src="C:\Users\Pankaj Singh\Desktop\.idea\m4.jpg"/>
+    </div>
+    
+<p id="paragraph">I am a professional web designer.I have done many projects for my clients I am a part time freelancer and I do freelancing in part time<br><br>
+"To design is much more than simply to assemble, to order, or even to eat to edit it is to add value and meaning to illuminate, to somplify, to clarify, to modify,to dignity, and perhaps even to amuse.To design is to transform prase into poetry".
+
+</p>
+  
+<h3 class="header-3">My Projects</h3>
+<div class="cards">
+<div class="Netflix" style="width: 18rem;">
+    
+    <img src="C:\Users\Pankaj Singh\Desktop\.idea\n4.jpg" class="card-img-top" alt="...">
+    
+      <h5 class="card-title">Netflix Clone</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ducimus, nam, molestias quis fuga veritatis perspiciatis deleniti in impedit rerum at voluptatibus totam! Id illum porro autem ex natus reiciendis.</p>
+      
+    </div>
+  
+    <div class="Spotify" style="width: 18rem;">
+    
+        <img src="C:\Users\Pankaj Singh\Desktop\.idea\s9.jpg" class="card-img-top" alt="...">
+        
+          <h5 class="card-title">Spotify Clone</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ducimus, nam, molestias quis fuga veritatis perspiciatis deleniti in impedit rerum at voluptatibus totam! Id illum porro autem ex natus reiciendis.</p>
+          
+        </div>
+
+        <div class="Gym-website" style="width: 18rem;">
+    
+            <img src="C:\Users\Pankaj Singh\Desktop\.idea\gym5.jpg"class="card-img-top" alt="...">
+            
+              <h5 class="card-title">Gym Website</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ducimus, nam, molestias quis fuga veritatis perspiciatis deleniti in impedit rerum at voluptatibus totam! Id illum porro autem ex natus reiciendis.</p>
+              
+            </div>
+
+            <div class="Library" style="width: 18rem;">
+    
+                <img src="C:\Users\Pankaj Singh\Desktop\.idea\lib.jpg" class="card-img-top" alt="...">
+                
+                  <h5 class="card-title">Library Management System</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ducimus, nam, molestias quis fuga veritatis perspiciatis deleniti in impedit rerum at voluptatibus totam! Id illum porro autem ex natus reiciendis.</p>
+                  
+                </div>
+ </div>
+ <header class="h6">Services</header>
+<div class="services">
+    <div class="web-development" style="width:18rem;">
+        <img src="C:\Users\Pankaj Singh\Desktop\.idea\web.jpg"  class="card-img-top" alt="...">
+                
+        <h5 class="card-title">Web Development</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ducimus, nam, molestias quis fuga veritatis perspiciatis deleniti in impedit rerum at voluptatibus totam! Id illum porro autem ex natus reiciendis.</p>
+        
+      </div>
+
+      <div class="java" style="width:18rem;">
+        <img src="C:\Users\Pankaj Singh\Desktop\.idea\java2.jpg"  class="card-img-top" alt="...">
+                
+        <h5 class="card-title">Java Developer</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ducimus, nam, molestias quis fuga veritatis perspiciatis deleniti in impedit rerum at voluptatibus totam! Id illum porro autem ex natus reiciendis.</p>
+        
+      </div>
+
+      <div class="javascript" style="width:18rem;">
+        <img src="C:\Users\Pankaj Singh\Desktop\.idea\js2.jpg"  class="card-img-top" alt="...">
+                
+        <h5 class="card-title">Javascript</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ducimus, nam, molestias quis fuga veritatis perspiciatis deleniti in impedit rerum at voluptatibus totam! Id illum porro autem ex natus reiciendis.</p>
+        
+      </div>
+
+      
+    </div>
+</div>
+<footer class="ft">
+    <header class="h9">Contact Us</h9>
+   <header class="h10">Address</h10>
+    <p class="paragraph2">N-3/20 Fr-6 R.K. Puram Colony, Karmajeetpur,Sunderpur,Varanasi</p>
+   <header class="h11">Contact No-</h10><span>9305498296</span>
+<header class="h12">Email US
+<input type="email" placeholder="Enter Your Email" id="email">
+
+</header>
+</footer>
+</body>
+
+</html>
